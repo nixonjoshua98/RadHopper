@@ -1,0 +1,8 @@
+.idea/
+.vs/
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+*.log
+.vscode/
