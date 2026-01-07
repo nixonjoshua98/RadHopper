@@ -27,7 +27,8 @@ internal sealed class RabbitMqTransportConfigurator : IRabbitMqTransportConfigur
 
         return new ConnectionFactory
         {
-            HostName = Host
+            HostName = Host,
+            Port = Port
         };
     }
 
